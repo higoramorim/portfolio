@@ -8,6 +8,7 @@ class Home extends Component {
       return (
        <main className="main" style={{ backgroundColor: '#6699ff', marginTop: 100}}>
            <img src={Higor} alt="higor"  style={{borderRadius:50, width: 200}} className="circle responsive-img"/>
+           // eslint-disable-next-line jsx-a11y/img-redundant-alt
            <img src={image} alt="image" style={{marginLeft: 150, borderRadius: 50, marginTop: 100}} className="circle responsive-img"/>
        <ul className="collection with-header">
            <li className="collection-header"><h4>Projetos No Github</h4></li>
